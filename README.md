@@ -10,7 +10,7 @@
 - Whats is an FPGA [5]?
 - WiKi FPGA [6]
 - Whats is a DDC and DUC? See [7]
-
+- Knowledge base about USRP [8]
 
 
 
@@ -22,3 +22,4 @@
 - https://www.xilinx.com/products/silicon-devices/fpga/what-is-an-fpga.html
 - https://en.wikipedia.org/wiki/Field-programmable_gate_array
 - https://en.wikipedia.org/wiki/Digital_down_converter
+- https://kb.ettus.com/Knowledge_Base
