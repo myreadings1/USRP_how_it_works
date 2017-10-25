@@ -19,6 +19,7 @@
 
 - We use this cmd to get 2 Msps for Bluetooth signal
 - sudo ./rx_samples_to_file --args master_clock_rate=56e6 --rate=2e6 --bw=56e6 --wirefmt=sc8 --progress --freq=2400e6
+- MOre about decimationa dn interpolation see [13]
 
 - Reference links:
 - https://www.ettus.com/product/details/USRP-E312
@@ -33,3 +34,4 @@
 - https://kb.ettus.com/Getting_Started_with_UHD_and_C%2B%2B
 - http://files.ettus.com/manual/page_usrp_b200.html
 - http://lists.ettus.com/pipermail/usrp-users_lists.ettus.com/2015-February/012688.html
+- http://lists.ettus.com/pipermail/usrp-users_lists.ettus.com/2012-September/005313.html
