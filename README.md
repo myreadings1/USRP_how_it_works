@@ -11,7 +11,8 @@
 - WiKi FPGA [6]
 - Whats is a DDC and DUC? See [7]
 - Knowledge base about USRP [8]
-
+- USRP general info [9]
+- Getting started with UHD and C++ [10]
 
 
 - Reference links:
@@ -23,3 +24,5 @@
 - https://en.wikipedia.org/wiki/Field-programmable_gate_array
 - https://en.wikipedia.org/wiki/Digital_down_converter
 - https://kb.ettus.com/Knowledge_Base
+- https://kb.ettus.com/About_USRP_Bandwidths_and_Sampling_Rates
+- https://kb.ettus.com/Getting_Started_with_UHD_and_C%2B%2B
