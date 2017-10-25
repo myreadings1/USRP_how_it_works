@@ -31,6 +31,7 @@
     Target sample rate: 3.000000 MSps
     Actual sample rate: 2.947368 MSps
 
+- Some description about aliasing see [14]
 - Reference links:
 - https://www.ettus.com/product/details/USRP-E312
 - http://lists.ettus.com/pipermail/usrp-users_lists.ettus.com/2015-July/015109.html
@@ -45,3 +46,4 @@
 - http://files.ettus.com/manual/page_usrp_b200.html
 - http://lists.ettus.com/pipermail/usrp-users_lists.ettus.com/2015-February/012688.html
 - http://lists.ettus.com/pipermail/usrp-users_lists.ettus.com/2012-September/005313.html
+- https://www.youtube.com/watch?v=sSrfq7uvkZ4
