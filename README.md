@@ -19,7 +19,17 @@
 
 - We use this cmd to get 2 Msps for Bluetooth signal
 - sudo ./rx_samples_to_file --args master_clock_rate=56e6 --rate=2e6 --bw=56e6 --wirefmt=sc8 --progress --freq=2400e6
-- MOre about decimationa dn interpolation see [13]
+- More about decimationa dn interpolation see [13]
+- Some Err messages with sampling rate
+- UHD Warning:
+    The requested decimation is odd; the user should expect CIC rolloff.
+    Select an even decimation to ensure that a halfband filter is enabled.
+    decimation = dsp_rate/samp_rate -> 19 = (56.000000 MHz)/(3.000000 MHz)
+
+- UHD Warning:
+    The hardware does not support the requested RX sample rate:
+    Target sample rate: 3.000000 MSps
+    Actual sample rate: 2.947368 MSps
 
 - Reference links:
 - https://www.ettus.com/product/details/USRP-E312
