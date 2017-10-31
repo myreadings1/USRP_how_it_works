@@ -1,0 +1,27 @@
+- https://files.ettus.com/manual/page_configuration.html#config_stream_args
+- G search (usrp b210 master clock)
+- http://haitham.ece.illinois.edu/#Thesis
+- http://haitham.ece.illinois.edu/Papers/BIGBAND_INFOCOM_Slides.pdf
+- http://synrg.csl.illinois.edu/papers/bigband_infocom.pdf
+- http://lists.ettus.com/pipermail/usrp-users_lists.ettus.com/2015-June/014473.html
+- https://kb.ettus.com/Getting_Started_with_UHD_and_C%2B%2B
+- http://files.ettus.com/manual/page_usrp_b200.html
+- https://kb.ettus.com/About_USRP_Bandwidths_and_Sampling_Rates
+- G search (master_clock_rate())
+- http://lists.ettus.com/pipermail/usrp-users_lists.ettus.com/2015-June/014480.html
+- G search (USRP cpu_format)
+- G search (USRP set front end bandwidth)
+- G search (set_rx_bandwidth)
+- G search (master clock vs rf bandwidth USRP)
+- G search (freq_xlating_fir_filter_ccf)
+- G search (frequency xlating fir filter vs low pass filter)
+- http://blog.sdr.hu/grblocks/xlating-fir.html
+- https://www.csun.edu/~skatz/katzpage/sdr_project/sdr/grc_tutorial4.pdf
+- http://files.ettus.com/manual/page_dboards.html#dboards_sbx
+- https://www.ettus.com/product/details/SBX
+- Editing RFX2400 https://github.com/greatscottgadgets/gr-bluetooth/tree/master/doc
+- 
+- http://lists.ettus.com/pipermail/usrp-users_lists.ettus.com/2015-July/015076.html
+- https://files.ettus.com/manual/page_usrp_b200.html
+- http://lists.ettus.com/pipermail/usrp-users_lists.ettus.com/2015-July/015110.html
+- https://lists.gnu.org/archive/html/discuss-gnuradio/2014-05/msg00596.html
