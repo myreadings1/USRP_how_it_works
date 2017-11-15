@@ -1,0 +1,38 @@
+Source of the discussion below is (http://lists.ettus.com/pipermail/usrp-users_lists.ettus.com/2016-June/020635.html)
+
+
+On 06/21/2016 11:29 AM, avinash kalyanaraman via USRP-users wrote:
+> Hello All,
+>
+> Is there a way I can read the time-aligned samples from 2 USRP N210s 
+> connected via a MIMO cable ?
+>
+> In other words, I want to be able to run the equivalent of 
+> uhd_rx_cfile but store the time aligned complex samples of both USRPs?
+>
+> Will simply connecting the two USRP Sources to  FileSinks in GRC (as 
+> attached) do this for me -  for e.g. then, will the Nth sample in 
+> file1 and Nth sample in file2 be time-aligned samples of the two USRPs?
+>
+> Thanks!
+>
+> -- 
+> Avinash
+>
+>
+You'll need to have *BOTH* USRPs in a single, multi-channel block, with 
+one of them set to use MIMO for reference clock and time synch, and
+   the other "internal".
+
+Each device should have its own IP address on the same subnet, which 
+will cause it to use MIMO for the sample-data as well, in
+   "shared ethernet" mode.
+
+http://files.ettus.com/manual/page_usrp2.html#usrp2_mimocable_shared
+
+http://files.ettus.com/manual/page_usrp2.html#usrp2_
+
+
+uhd_rx_cfile allows to record from multiple channels (see the -c option).
+
+M
