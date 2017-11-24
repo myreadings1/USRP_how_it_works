@@ -1,3 +1,5 @@
+To convert cpu format sc8 - complex<int8_t> to fc32 - complex<float>, we only need to normalize all values, 
+i.e. make them in {-1.0, +1.0 } .. See [2]
 CPU format
 -------------
 The CPU format is a string that describes the format of host memory. Conversions for the following CPU formats have been implemented:
@@ -33,4 +35,6 @@ The following are not implemented, but are listed to demonstrate naming conventi
 
 Setting the OTW ("over-the-wire") format is, in theory, transparent to the application, but changing this can have some side effects. Using less bits for example (e.g. when going from otw_format sc16 to sc8) will reduce the dynamic range, and increases quantization noise. On the other hand, it reduces the load on the data link and thus allows more bandwidth (a USRP N210 can work with 25 MHz bandwidth for 16-Bit complex samples, and 50 MHz for 8-Bit complex samples).
 
-Reference [1] https://files.ettus.com/manual/structuhd_1_1stream__args__t.html
+
+[1] https://files.ettus.com/manual/structuhd_1_1stream__args__t.html
+[2] http://lists.ettus.com/pipermail/usrp-users_lists.ettus.com/2017-November/027126.html
